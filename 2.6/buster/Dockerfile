@@ -1,0 +1,9 @@
+FROM ruby:2.6
+
+LABEL maintainer="Kunal Nagar <knlnagar@gmail.com>"
+
+RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
+
+RUN apt-get update -qq && apt-get install -qq --no-install-recommends \
+	apt-utils nodejs \
+	&& rm -rf /var/lib/apt/lists/*
