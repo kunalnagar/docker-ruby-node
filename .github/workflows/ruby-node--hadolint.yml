@@ -1,4 +1,4 @@
-name: Lint Dockerfiles
+name: ruby-node--hadolint
 
 on: [push, pull_request]
 

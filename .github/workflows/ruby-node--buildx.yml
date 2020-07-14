@@ -1,4 +1,4 @@
-name: buildx
+name: ruby-node--buildx
 
 on:
   schedule:
