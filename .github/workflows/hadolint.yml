@@ -3,7 +3,7 @@ name: Lint Dockerfiles
 on: [push, pull_request]
 
 jobs:
-  build:
+  lint:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
