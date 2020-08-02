@@ -9,6 +9,9 @@ updates:
   directory: "/ruby-node/2.6/buster/slim"
   schedule:
     interval: weekly
+	ignore:
+		- dependency-name: ruby
+			versions: ['2.7x']
   open-pull-requests-limit: 10
 - package-ecosystem: docker
   directory: "/ruby-node/2.7/buster"
@@ -19,6 +22,9 @@ updates:
   directory: "/ruby-node/2.6/buster"
   schedule:
     interval: weekly
+	ignore:
+		- dependency-name: ruby
+			versions: ['2.7x']
   open-pull-requests-limit: 10
 - package-ecosystem: docker
   directory: "/ruby-node/2.7/alpine"
@@ -29,4 +35,7 @@ updates:
   directory: "/ruby-node/2.6/alpine"
   schedule:
     interval: weekly
+	ignore:
+		- dependency-name: ruby
+			versions: ['2.7x']
   open-pull-requests-limit: 10
