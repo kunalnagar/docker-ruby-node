@@ -7,7 +7,6 @@ updates:
   open-pull-requests-limit: 10
   commit-message:
   	prefix: chore
-	rebase-strategy: disabled
 - package-ecosystem: docker
   directory: "/ruby-node/2.6/buster/slim"
   schedule:
@@ -15,7 +14,6 @@ updates:
   open-pull-requests-limit: 10
 	commit-message:
 		prefix: chore
-	rebase-strategy: disabled
 - package-ecosystem: docker
   directory: "/ruby-node/2.7/buster"
   schedule:
@@ -23,7 +21,6 @@ updates:
   open-pull-requests-limit: 10
 	commit-message:
 		prefix: chore
-	rebase-strategy: disabled
 - package-ecosystem: docker
   directory: "/ruby-node/2.6/buster"
   schedule:
@@ -31,7 +28,6 @@ updates:
   open-pull-requests-limit: 10
 	commit-message:
 		prefix: chore
-	rebase-strategy: disabled
 - package-ecosystem: docker
   directory: "/ruby-node/2.7/alpine"
   schedule:
@@ -39,7 +35,6 @@ updates:
   open-pull-requests-limit: 10
 	commit-message:
 		prefix: chore
-	rebase-strategy: disabled
 - package-ecosystem: docker
   directory: "/ruby-node/2.6/alpine"
   schedule:
@@ -47,4 +42,3 @@ updates:
   open-pull-requests-limit: 10
 	commit-message:
 		prefix: chore
-	rebase-strategy: disabled
