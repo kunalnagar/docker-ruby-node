@@ -5,40 +5,28 @@ updates:
   schedule:
     interval: weekly
   open-pull-requests-limit: 10
-  commit-message:
-  	prefix: chore
 - package-ecosystem: docker
   directory: "/ruby-node/2.6/buster/slim"
   schedule:
     interval: weekly
   open-pull-requests-limit: 10
-	commit-message:
-		prefix: chore
 - package-ecosystem: docker
   directory: "/ruby-node/2.7/buster"
   schedule:
     interval: weekly
   open-pull-requests-limit: 10
-	commit-message:
-		prefix: chore
 - package-ecosystem: docker
   directory: "/ruby-node/2.6/buster"
   schedule:
     interval: weekly
   open-pull-requests-limit: 10
-	commit-message:
-		prefix: chore
 - package-ecosystem: docker
   directory: "/ruby-node/2.7/alpine"
   schedule:
     interval: weekly
   open-pull-requests-limit: 10
-	commit-message:
-		prefix: chore
 - package-ecosystem: docker
   directory: "/ruby-node/2.6/alpine"
   schedule:
     interval: weekly
   open-pull-requests-limit: 10
-	commit-message:
-		prefix: chore
