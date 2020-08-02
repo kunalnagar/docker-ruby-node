@@ -1,9 +1,9 @@
-name: ruby-node--hadolint
+name: ruby-node--lint
 
-on: [push, pull_request]
+on: push
 
 jobs:
-  lint:
+  hadolint:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v2
