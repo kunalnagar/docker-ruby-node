@@ -7,7 +7,7 @@ updates:
   open-pull-requests-limit: 10
   commit-message:
   	prefix: chore
-		rebase-strategy: disabled
+	rebase-strategy: disabled
 - package-ecosystem: docker
   directory: "/ruby-node/2.6/buster/slim"
   schedule:
