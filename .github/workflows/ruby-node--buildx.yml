@@ -2,7 +2,7 @@ name: ruby-node--buildx
 
 on:
   schedule:
-    - cron: '37 05 * * *'
+    - cron: '41 09 * * 6'
   pull_request:
   push:
 
