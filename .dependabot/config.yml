@@ -1,0 +1,11 @@
+version: 1
+update_configs:
+  - package_manager: 'docker'
+    directory: '/ruby-node/2.6/alpine'
+    update_schedule: 'weekly'
+	- package_manager: 'docker'
+    directory: '/ruby-node/2.6/buster'
+    update_schedule: 'weekly'
+	- package_manager: 'docker'
+    directory: '/ruby-node/2.6/buster/slim'
+    update_schedule: 'weekly'
